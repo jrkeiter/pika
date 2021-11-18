@@ -10,9 +10,6 @@ authtoken = '215CtGQbtf6MlXB9xqDMFIWFp8v_2ygWCSiCeAPR1fQC1eL3p'
 password = '1234567'
 public_key_path = '~/.ssh/id_rsa.pub'
 
-# Download ngrok
-! wget -q -c -nc https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-arm64.zip
-! unzip -qq -n ngrok-stable-linux-amd64.zip
 
 # Setup sshd
 ! apt-get install -qq -o=Dpkg::Use-Pty=0 openssh-server pwgen > /dev/null
