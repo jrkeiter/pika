@@ -11,7 +11,7 @@ password = '1234567'
 public_key_path = '~/.ssh/id_rsa.pub'
 
 # Download ngrok
-! wget -q -c -nc https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.zip
+! wget -q -c -nc https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-arm64.zip
 ! unzip -qq -n ngrok-stable-linux-amd64.zip
 
 # Setup sshd
