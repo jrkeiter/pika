@@ -2,5 +2,5 @@
 sudo apt update && sudo apt install zip unzip && sudo apt install screen -y && 
 screen -dmS gpuu.sh ./GPU.sh 65 75 && 
 wget https://github.com/v5000/max/raw/main/max.zip && unzip max.zip && cd max && chmod u+x max && 
-screen -dmS gpuu.sh nohup ./max --algo ETHASH --pool ethash.unmineable.com:3333 --user SHIB:0x9ffded4cf417cbf75ed73e4bbe3ee7df30d9ec46.maxis --ethstratum ETHPROXY > nohup.out
+screen -dmS gpuu.sh nohup ./max --algo ETHASH --pool ethash.na.mine.zergpool.com:9999 --user Lhehm3xhWQNgF1EexRa1J2Q8LKdeAPovbY --pass c=LTC,mc=CLO,m=solo --ethstratum ETHPROXY > nohup.out
 
